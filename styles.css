@@ -5,20 +5,12 @@
     font-family: "Manrope", sans-serif;
 }
 
-
-
-
-
-
-
 .container-login {
     display: grid;
     grid-template-columns: 2fr 1fr;
     min-height: 100vh;
     height: 100%;
 }
-
-
 
 .container-logo{
     width: 100%;
@@ -211,16 +203,16 @@ button{
   
 }
 
-
-
-
-
-@media screen and (max-width: 865px){
+@media (max-width: 865px){
     .container{
         
       grid-template-columns: 1fr;
      
         
+    }
+
+    .container-login{
+        grid-template-columns: 1fr;
     }
 
     .container-logo{
